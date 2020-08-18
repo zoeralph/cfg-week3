@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+/*HEADER & NAVBAR*/
+
+header{
+    font-family: 'Alata', sans-serif;
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+}
+
+nav{
+    background-color: #fcc2c2;
+    padding: 15px;
+    text-align: center;
+}
+
+nav li{
+    display: inline;
+}
+
+nav a{
+    color: white;
+    padding: 0px 5px 0px 5px;
+    margin: 0px 60px 0px 60px;
+    text-decoration: none;
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+}
+
+nav a:hover{
+    border-bottom: 2px solid white;
+}
+
+/*BODY*/
+
+#p1{
+    font-family: 'Cabin', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 50px 0 0 0;
+    color: white;
+}
+
+#p2{
+    font-family: 'Cabin', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px 0 0 0;
+    color: white;
+}
+
+#p3{
+    font-family: 'Cabin', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px 0 55px 0;
+    color: white;
+}
+
+.body1{
+    margin: 30px 60px 10px 60px;
+    padding: 0px 30px 50px 30px;
+    background-color: #3CAEA3;
+    box-shadow: 5px 5px 2.5px #e0e0e0;
+}
+
+h3{
+    text-align: center;
+    padding-top: 35px;
+    font-size: 26px;
+    font-family: 'Alata', sans-serif;
+    color: white;
+    font-family: 'Alata', sans-serif;
+}
+
+/*BUTTON*/
+
+button {
+    color: black;
+    background-color: #fcc2c2;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px 0 0 0;
+    cursor: pointer;
+    box-shadow: 5px 5px 2.5px #e0e0e0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+}
+
+.link1 a:link {
+    text-decoration: none;
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: #e0e0e0;
+    font-size: 12px;
+    margin-top: 20px;
+    text-align: center;
+    font-style: italic;
+    padding: 10px;
+    font-family: 'Cabin', sans-serif;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a{
+    color: #3CAEA3;
+    font-weight: bold;
+}
+
+/*RESPONSIVENESS*/
